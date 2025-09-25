@@ -1,0 +1,16 @@
+# Node
+node_modules/
+package-lock.json
+
+# Cypress artifacts
+cypress/screenshots/
+cypress/videos/
+
+# OS and editor junk
+.DS_Store
+Thumbs.db
+*.log
+
+# Env/coverage (if added later)
+.env
+coverage/

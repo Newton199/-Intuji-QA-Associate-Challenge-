@@ -1,0 +1,19 @@
+{
+  "name": "automationexercise-cypress-pom",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cypress POM E2E tests for automationexercise.com with session handling and robust flows",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.0",
+    "cypress": "^13.13.1",
+    "cypress-image-diff-js": "^3.3.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
